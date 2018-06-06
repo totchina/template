@@ -6,7 +6,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ```bash
 $ npm install -g vue-cli
-$ vue init plato-template <project-name>
+$ vue init totchina/template <project-name>
 ```
 
 ## Live Example
