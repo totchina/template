@@ -1,0 +1,6 @@
+{
+  "name": "plato-template",
+  "version": "1.0.0-beta",
+  "description": "a Boilerplate for SPAs use vue, vuex, vue-router",
+  "license": "MIT"
+}

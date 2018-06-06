@@ -1,0 +1,38 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "message": "Project name",
+      "default": "Awesome"
+    },
+    "version": {
+      "type": "string",
+      "required": true,
+      "message": "Project version",
+      "default": "1.0.0"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "message": "Project description",
+      "default": "A PLATO project"
+    },
+    "author": {
+      "type": "string",
+      "message": "Author"
+    },
+    "elementUI": {
+      "type": "confirm",
+      "message": "use elementUI?",
+      "default": false
+    },
+    "iviewUI": {
+      "type": "confirm",
+      "message": "use iviewUI?",
+      "default": false
+    }
+  },
+  "skipInterpolation": "!{README.md,package.json,npm-shrinkwrap.json,**/*.js}",
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm run init\n  npm run dev\n\nDemostrations can be found at http://plato.crossjs.com/#/demo"
+}

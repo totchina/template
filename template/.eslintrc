@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": [
+    "plato"
+  ],
+  "globals": {
+    "__DEV__": false,
+    "$": false
+  },
+  "rules": {
+    "object-curly-spacing": 0
+  }
+}
